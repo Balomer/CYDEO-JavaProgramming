@@ -20,7 +20,7 @@ public class HappyBirthDay {
             System.out.println("            ****************************\n      ****************************************\n*********    HAPPY BIRTHDAY TO YOU !!!     *********" +
                     "\n      ****************************************   \n           ****************************      ");
         }/*else{
-            // Doğum gününe kalan süreyi hesaplayacak program. Kolay bir yöntemi olmalı ??????????
+            // Doğum gününe kalan süreyi hesaplayacak program. Kolay bir yöntemi olmalı ??????????----
            System.out.println("Time left to your birthday "+Period.between(curDate,dob).getMonths()+" months.");
         }*/
     }
