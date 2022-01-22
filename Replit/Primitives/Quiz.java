@@ -1,4 +1,4 @@
-package day06_PrimitiveTypeCastings;
+package Primitives;
 
 public class Quiz {
     public static void main(String[] args) {

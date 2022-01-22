@@ -1,4 +1,4 @@
-package day06_PrimitiveTypeCastings;
+package Primitives;
 
 
 import java.util.Scanner;
