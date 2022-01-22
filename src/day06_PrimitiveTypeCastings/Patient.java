@@ -55,11 +55,13 @@ public class Patient {
         System.out.println("Are you married?");
         isMarried = scan.nextBoolean();
 
-        String concats = "work phone number - "+workPhoneNumber+", personal phone number - "+personalPhoneNumber+", email: "+email;
+        scan.close();
+
+        contacts = "work phone number - "+workPhoneNumber+", personal phone number - "+personalPhoneNumber+", email: "+email;
         fullName = lastName +", "+firstName;
         address = street + ", "+ city+ ", " + state + " " + zipcode;
 
-        System.out.print("Patient personal information\nFull name: " + fullName+ "\nAddress: "+address+"\nContacts: "+concats+"\nAge: "+age+"\nHeight: "+ height + "\nWeight: "+ weight+" pounds\nMarried?: "+isMarried);
+        System.out.print("Patient personal information\nFull name: " + fullName+ "\nAddress: "+address+"\nContacts: "+contacts+"\nAge: "+age+"\nHeight: "+ height + "\nWeight: "+ weight+" pounds\nMarried?: "+isMarried);
 
 
 
