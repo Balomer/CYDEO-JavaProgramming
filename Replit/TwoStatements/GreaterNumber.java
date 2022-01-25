@@ -10,6 +10,7 @@ class GreaterNumber {
         int a = s.nextInt();
         int b = s.nextInt();
         //WRITE YOUR CODE HERE:
-        System.out.print(a>b? a+" is greater": b+" is greater");
+
+        System.out.print(a > b ? a + " is greater" : b + " is greater");
     }
 }
