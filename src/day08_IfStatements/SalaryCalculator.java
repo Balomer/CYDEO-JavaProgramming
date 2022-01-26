@@ -1,4 +1,4 @@
-package day_08_IfStatements;
+package day08_IfStatements;
 
 public class SalaryCalculator {
     public static void main(String[] args) {
