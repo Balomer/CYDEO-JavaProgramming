@@ -37,7 +37,7 @@ public class NameOfMonth {
             System.out.println("Invalid !");
         }
 
-        // here is the another solution with using Java.Month class
+        // here is the another solution with using Java.Month Enum class
         if (!(num < 1 || num > 12)) {
             Month month = Month.of(num);
             System.out.println(month.name());

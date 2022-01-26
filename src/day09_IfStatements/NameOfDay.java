@@ -26,7 +26,7 @@ public class NameOfDay {
         } else {
             System.out.println("Invalid entering !");
         }
-        // here is the another approach to solve this problem with using DayOfWeek class
+        // here is the another approach to solve this problem with using DayOfWeek Enum class
         if (!(num < 1 || num > 7)) {
             DayOfWeek day = DayOfWeek.of(num);
             System.out.println(day.name());
