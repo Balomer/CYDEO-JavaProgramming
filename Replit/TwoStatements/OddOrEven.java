@@ -1,6 +1,6 @@
 package TwoStatements;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class OddOrEven {
     public static void main(String[] args) {
@@ -10,6 +10,6 @@ public class OddOrEven {
         System.out.println("Enter a number:");
         int number = input.nextInt();
         //CODE HERE:
-        System.out.print(number%2==0 ? number+" is even":number+" is odd");
+        System.out.print(number % 2 == 0 ? number + " is even" : number + " is odd");
     }
 }
