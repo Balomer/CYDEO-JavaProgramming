@@ -1,4 +1,4 @@
-package Primitives;
+package Variables;
 
 
 public class Variables {
