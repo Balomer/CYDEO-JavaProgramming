@@ -2,6 +2,7 @@ package day10_NestedIf;
 
 import java.time.DateTimeException;
 import java.time.Month;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class NameOfMonths {
@@ -26,7 +27,7 @@ public class NameOfMonths {
         } else result = "Invalid entering !";
         System.out.println(result);
         try {
-            System.out.println(Month.of(number).name());
+            System.out.println((Month.of(number).name()).substring(0,1) + Month.of(number).name().substring(1).toLowerCase(Locale.ENGLISH));
         } catch (DateTimeException e) {
             System.out.println(e.getMessage());
         }

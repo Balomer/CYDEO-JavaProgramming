@@ -1,6 +1,7 @@
 package day09_IfStatements;
 
 import java.time.DayOfWeek;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class NameOfDay {
@@ -8,7 +9,6 @@ public class NameOfDay {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number between '1-7' please : ");
         int num = sc.nextInt();
-
         if (num == 1) {
             System.out.println("MONDAY");
         } else if (num == 2) {
@@ -27,9 +27,11 @@ public class NameOfDay {
             System.out.println("Invalid entering !");
         }
         // here is the another approach to solve this problem with using DayOfWeek Enum class
+        Locale tr = new Locale("tr","tr");
         if (!(num < 1 || num > 7)) {
             DayOfWeek day = DayOfWeek.of(num);
-            System.out.println(day.name());
+            System.out.println(day.name().charAt(0)+day.name().substring(1).toLowerCase(Locale.ENGLISH));
+            System.out.println(day.name().charAt(0)+day.name().substring(1).toLowerCase(tr));
         }
     }
 }
