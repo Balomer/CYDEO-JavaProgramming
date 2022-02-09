@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class NumberOfDays {
 
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int year = 2000;
+        Scanner sc = new Scanner(System.in);
+        int year = sc.nextInt();
         int number = sc.nextInt();
 
         String result = "";
@@ -15,10 +15,13 @@ public class NumberOfDays {
 
             switch (number){
                 case 2:
-                    result = (year % 4 ==0)? "29 days" : "28 days";
+                    result = (year % 4 == 0) ? "29 days" : "28 days";
                     break;
 
-                case 4: case 6: case 9: case 11:
+                case 4:
+                case 6:
+                case 9:
+                case 11:
                     result = "30 days";
                     break;
 
@@ -26,7 +29,7 @@ public class NumberOfDays {
                     result = "31 days";
             }
 
-        }else{
+        } else {
             result = "Invalid Number";
         }
 
