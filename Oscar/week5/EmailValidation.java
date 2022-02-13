@@ -19,7 +19,7 @@ import java.util.regex.Pattern;
  * str = "test@example.co.in --> true
  * str = "@example.com" --> false
  */
-public class EmalValidation {
+public class EmailValidation {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in).useLocale(Locale.US);
         int n = Integer.parseInt(scan.nextLine()); // loop count
