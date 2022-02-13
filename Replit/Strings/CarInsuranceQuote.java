@@ -72,6 +72,7 @@ public class CarInsuranceQuote {
         else if (education.equalsIgnoreCase("Less than High School")) premium += premium * 0.05;
         else premium -= premium * 0.05;
 
+
         referenceNumber = (name.substring(0, 2) + age + name.substring(name.length() - 2) + zipCode + education).toUpperCase(Locale.US).replace(" ", "");
         System.out.println(name + ", here's your quote!\nStart Your Policy Today For: $" + premium);
         System.out.println("Reference number: " + referenceNumber);
