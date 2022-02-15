@@ -1,9 +1,8 @@
 package day15_ForLoop;
 
-import java.util.Locale;
 import java.util.Scanner;
 
-public class StringReverser {
+public class StringReverse {
 
     private static String reverse(String str) {
         String reversed = "";

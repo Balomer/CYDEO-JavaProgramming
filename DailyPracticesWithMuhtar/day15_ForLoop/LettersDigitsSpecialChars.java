@@ -1,7 +1,5 @@
 package day15_ForLoop;
 
-import java.util.Arrays;
-
 public class LettersDigitsSpecialChars {
 
     public static void main(String[] args) {
@@ -27,6 +25,7 @@ public class LettersDigitsSpecialChars {
                 whiteSpaceCount++;
             }
         }
+
 
         System.out.println("Digits = " + digits);
         System.out.println("Letters = " + letters);
