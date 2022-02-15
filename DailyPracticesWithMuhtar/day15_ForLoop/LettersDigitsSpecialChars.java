@@ -25,7 +25,7 @@ public class LettersDigitsSpecialChars {
                 whiteSpaceCount++;
             }
         }
-
+        // burayı değiştirdim.
         System.out.println("Digits = " + digits);
         System.out.println("Letters = " + letters);
         System.out.println("Special Chars = " + specialChars);
