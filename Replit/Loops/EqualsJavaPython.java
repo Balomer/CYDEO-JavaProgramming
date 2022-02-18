@@ -8,7 +8,7 @@ public class EqualsJavaPython {
         int countOfJava = 0;
         int countOfPython = 0;
         String str = scan.nextLine();
-        String result = "false";
+        
         while (str.contains("java")) {
             str = str.replaceFirst("java", "");
             countOfJava++;
@@ -17,7 +17,7 @@ public class EqualsJavaPython {
             str = str.replaceFirst("python", "");
             countOfPython++;
         }
-        result = countOfJava == countOfPython ? "true" : result;
-        System.out.print(result);
+       
+        System.out.print(countOfJava==countOfPython);
     }
 }
